@@ -1,4 +1,3 @@
-class TrieNode:
+class Trie:
     def __init__(self):
-        self.children = {}
-        self.endOfString = False
+        self.root = TrieNode()
