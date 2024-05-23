@@ -1,8 +1,9 @@
-using System;
-using System.Collections.Generic;
-
-public class TrieNode
+public class Trie
 {
-    public Dictionary<char, TrieNode> Children = new Dictionary<char, TrieNode>();
-    public bool EndOfWord;
+    private readonly TrieNode _root;
+
+    public Trie()
+    {
+        _root = new TrieNode();
+    }
 }
